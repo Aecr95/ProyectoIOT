@@ -1,0 +1,22 @@
+Descripción del Proyecto
+Nombre: Sistema de Alerta de Nivel de Ruido para Ambientes Sensibles
+
+Resumen: Este proyecto consiste en un dispositivo de monitoreo y alerta de niveles de ruido. 
+Utiliza un sensor de sonido para medir el nivel de ruido ambiente y una pantalla OLED para mostrar visualmente los datos en tiempo real. Además, incluye LEDs (verde, amarillo y rojo) 
+que indican de forma intuitiva el nivel de ruido: bajo, moderado o alto. Un módulo WiFi permite que los datos sean transmitidos a una red o aplicación externa, donde podrían utilizarse 
+para monitoreo remoto o notificaciones.
+
+Objetivo: El sistema está diseñado para ayudar a personas en entornos donde el control del ruido es crucial, como hospitales, bibliotecas o guarderías. 
+A través de sus indicadores y pantalla, ofrece una guía visual fácil de interpretar, que ayuda a las personas a mantener los niveles de ruido adecuados.
+
+Características:
+
+Medición de Ruido en Tiempo Real: El dispositivo mide el ruido ambiente continuamente y muestra el nivel en una pantalla OLED.
+Alertas Visuales: LEDs de colores proporcionan una advertencia visual rápida:
+Verde: Nivel de ruido bajo.
+Amarillo: Nivel de ruido moderado.
+Rojo: Nivel de ruido alto, indicando que es necesario reducir el volumen.
+Conectividad WiFi: Gracias al módulo WiFi, el dispositivo puede enviar datos a una aplicación o servidor, permitiendo monitoreo remoto y registro de niveles de ruido.
+Implementación Técnica: El dispositivo está programado para leer el nivel de ruido con el sensor conectado al pin A0. 
+Los LEDs y la pantalla OLED están configurados para reaccionar según los valores de ruido detectados.
+ La conectividad WiFi permite registrar o alertar remotamente cuando los niveles superan los límites establecidos.
